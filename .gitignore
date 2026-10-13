@@ -1,5 +1,23 @@
+# Dependencies
 node_modules/
-.next/
+
+# Build output (will be rebuilt by GitHub Actions)
 dist/
-build/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
 *.log
+npm-debug.log*
+.next/
+build/
